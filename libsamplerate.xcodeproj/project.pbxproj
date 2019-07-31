@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66D8FA6D22F1C336007C9623 /* mid_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6222F1C336007C9623 /* mid_qual_coeffs.h */; };
-		66D8FA6E22F1C336007C9623 /* high_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6322F1C336007C9623 /* high_qual_coeffs.h */; };
+		66D8FA6D22F1C336007C9623 /* mid_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6222F1C336007C9623 /* mid_qual_coeffs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		66D8FA6E22F1C336007C9623 /* high_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6322F1C336007C9623 /* high_qual_coeffs.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		66D8FA6F22F1C336007C9623 /* samplerate.c in Sources */ = {isa = PBXBuildFile; fileRef = 66D8FA6422F1C336007C9623 /* samplerate.c */; };
 		66D8FA7022F1C336007C9623 /* src_sinc.c in Sources */ = {isa = PBXBuildFile; fileRef = 66D8FA6522F1C336007C9623 /* src_sinc.c */; };
-		66D8FA7122F1C336007C9623 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6622F1C336007C9623 /* config.h */; };
-		66D8FA7222F1C336007C9623 /* fastest_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6722F1C336007C9623 /* fastest_coeffs.h */; };
+		66D8FA7122F1C336007C9623 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6622F1C336007C9623 /* config.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		66D8FA7222F1C336007C9623 /* fastest_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6722F1C336007C9623 /* fastest_coeffs.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		66D8FA7322F1C336007C9623 /* src_linear.c in Sources */ = {isa = PBXBuildFile; fileRef = 66D8FA6822F1C336007C9623 /* src_linear.c */; };
 		66D8FA7422F1C336007C9623 /* src_zoh.c in Sources */ = {isa = PBXBuildFile; fileRef = 66D8FA6922F1C336007C9623 /* src_zoh.c */; };
 		66D8FA7522F1C336007C9623 /* samplerate.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6A22F1C336007C9623 /* samplerate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66D8FA7622F1C336007C9623 /* float_cast.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6B22F1C336007C9623 /* float_cast.h */; };
-		66D8FA7722F1C336007C9623 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6C22F1C336007C9623 /* common.h */; };
+		66D8FA7622F1C336007C9623 /* float_cast.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6B22F1C336007C9623 /* float_cast.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		66D8FA7722F1C336007C9623 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8FA6C22F1C336007C9623 /* common.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,8 +90,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66D8FA7522F1C336007C9623 /* samplerate.h in Headers */,
-				66D8FA7122F1C336007C9623 /* config.h in Headers */,
 				66D8FA6D22F1C336007C9623 /* mid_qual_coeffs.h in Headers */,
+				66D8FA7122F1C336007C9623 /* config.h in Headers */,
 				66D8FA7222F1C336007C9623 /* fastest_coeffs.h in Headers */,
 				66D8FA7622F1C336007C9623 /* float_cast.h in Headers */,
 				66D8FA6E22F1C336007C9623 /* high_qual_coeffs.h in Headers */,
