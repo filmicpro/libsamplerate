@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = "http://www.mega-nerd.com/SRC/"
   s.license = { :type => "BSD-2", :file => "LICENSE" }
   s.author = "Erik de Castro"
-  s.ios.deployment_target = "11.0"
+  s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.7"
   s.source = { :git => 'git@git.filmicpro.com:iOS/memory-mic/libsamplerate.git', :tag => s.version }
   s.source_files  = "libsamplerate/*.{h,c}"
